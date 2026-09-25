@@ -13,7 +13,7 @@
 
     <div class="container mt-4">
 
-        <h2>Inicio de sesión</h2>
+        <h2 id="title">Inicio de sesión</h2>
 
         <hr />
 

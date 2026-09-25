@@ -22,7 +22,7 @@ namespace ev2_web_forms.Administrador
 
         protected void btnCerrar_Click(object sender, EventArgs e)
         {
-
+            Session.Abandon();
             Session.Clear();
 
             Response.Redirect("../Login.aspx");
