@@ -114,6 +114,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\EstilosCustom.css" />
     <Content Include="Login.aspx" />
     <Content Include="QuienesSomos.aspx" />
     <Content Include="Contacto.aspx" />
