@@ -21,7 +21,7 @@ h3 {
     font-style: normal;
     color: #111;
 }
-p, address, a {
+p, address, a, span {
     font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-weight: normal;
@@ -40,4 +40,9 @@ p, address, a {
     font-family: "Space Grotesk", sans-serif;
     font-weight: bolder;
     text-transform: capitalize;
+}
+.card {
+    background-color: rgb(218, 235, 253) !important;
+    border-radius: 12px;
+    padding: 10px 12px;
 }
