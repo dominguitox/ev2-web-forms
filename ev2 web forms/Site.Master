@@ -43,9 +43,10 @@
             </Scripts>
         </asp:ScriptManager>
         <!-- Barra de navegación -->
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark" style="padding: 0;">
             <div class="container">
-                <a class="navbar-brand" runat="server" href="~/Inicio.aspx">🐧 Congelandia
+                <a class="navbar-brand" runat="server" href="~/Inicio.aspx" style="padding: 0;">🐧
+                Congelandia
                 </a>
                 <button type="button"
                     class="navbar-toggler"
@@ -67,18 +68,21 @@
                             <a class="nav-link" runat="server" href="~/Contacto.aspx">Contacto
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" runat="server" href="~/Login.aspx" id="linklogin">Login
-                            </a>
-                        </li>
                     </ul>
                     <div>
-                        <asp:Button
-                            ID="btnCerrar"
-                            runat="server"
-                            Text="Cerrar sesión"
-                            CssClass="btn btn-danger"
-                            OnClick="btnCerrar_Click" />
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link" runat="server" href="~/Login.aspx" id="linklogin">Login
+                                </a>
+                            </li>
+                            <asp:Button
+                                ID="btnCerrar"
+                                runat="server"
+                                Text="Cerrar sesión"
+                                CssClass="btn btn-danger"
+                                OnClick="btnCerrar_Click" />
+                        </ul>
+
                     </div>
                 </div>
             </div>

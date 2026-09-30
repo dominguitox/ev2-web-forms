@@ -29,7 +29,6 @@ namespace ev2_web_forms
                     linklogin.InnerText = "Panel Administrador";
                     linklogin.HRef = "/Administrador/PanelAdministrador";
 
-
                 }
             }
 

@@ -12,7 +12,7 @@ namespace ev2_web_forms
 
 
         protected void btnIngresar_Click(object sender, EventArgs e)
-        {
+        { 
 
             string usuario = txtUsuario.Text;
             string clave = txtClave.Text;

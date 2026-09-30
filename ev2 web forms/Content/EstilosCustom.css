@@ -1,48 +1,72 @@
 ﻿body {
 }
+
 #aspnetTitle {
     font-family: "Archivo Black", sans-serif;
     font-weight: bolder;
     font-style: normal;
     color: #111;
 }
+
 h2, h3, h4 {
     font-family: "Archivo Black", sans-serif;
     font-weight: normal;
     font-style: normal;
     color: #444;
 }
+
 h3 {
     color: #555;
 }
+
 #title {
     font-family: "Archivo Black", sans-serif;
     font-weight: bolder;
     font-style: normal;
     color: #111;
 }
+
 p, address, a, span {
     font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
 }
+
 .navbar {
     background-color: rgb(15, 53, 92) !important;
 }
+
 .navbar-brand {
     font-family: "Space Grotesk", sans-serif;
     font-weight: bolder;
     text-transform: uppercase;
     font-size: x-large;
 }
+
 .navbar-nav {
     font-family: "Space Grotesk", sans-serif;
     font-weight: bolder;
     text-transform: capitalize;
 }
+
 .card {
     background-color: rgb(218, 235, 253) !important;
     border-radius: 12px;
     padding: 10px 12px;
 }
+
+.carousel-item img {
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+
+.nav-link:hover {
+    background: #bab4ff21;
+}
+
+.nav-link {
+    padding: 16px 0;
+}
+
+
