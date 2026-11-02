@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="19093aa5c3464b29a28c38dfa3ae1d34" Name="Diagram1">
+      <Diagram DiagramId="19093aa5c3464b29a28c38dfa3ae1d34" Name="Diagram1" ZoomLevel="81">
         <EntityTypeShape EntityType="HelpDeskTIModel.Estados" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
         <EntityTypeShape EntityType="HelpDeskTIModel.Prioridades" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
         <EntityTypeShape EntityType="HelpDeskTIModel.Tecnicos" Width="1.5" PointX="3" PointY="1.75" IsExpanded="true" />

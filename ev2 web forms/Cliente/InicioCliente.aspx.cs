@@ -1,3 +1,4 @@
+
 using System;
 
 namespace ev2_web_forms.Cliente
@@ -6,28 +7,31 @@ namespace ev2_web_forms.Cliente
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            // Comprobar autenticacion y rol.
             if (Session["Rol"] == null ||
-                Session["Rol"].ToString() != "Cliente")
+                Session["Usuario"] == null ||
+                Session["Rol"].ToString() != "Usuario")
             {
-                Response.Redirect("../Login.aspx");
+                Response.Redirect("../Login.aspx", false);
+                Context.ApplicationInstance.CompleteRequest();
+                return;
             }
 
-
-            lblBienvenida.Text =
-                "Bienvenido " + Session["Usuario"].ToString();
-
+            if (!IsPostBack)
+            {
+                lblBienvenida.Text =
+                    "Bienvenido " + Server.HtmlEncode(
+                        Session["Usuario"].ToString());
+            }
         }
-
 
         protected void btnCerrar_Click(object sender, EventArgs e)
         {
-
-            Session.Abandon();
             Session.Clear();
+            Session.Abandon();
 
-            Response.Redirect("../Login.aspx");
-
+            Response.Redirect("../Login.aspx", false);
+            Context.ApplicationInstance.CompleteRequest();
         }
     }
 }

@@ -23,7 +23,7 @@
             <asp:Label 
                 ID="lblUsuario" 
                 runat="server" 
-                Text="Usuario">
+                Text="Correo electrónico">
             </asp:Label>
 
 

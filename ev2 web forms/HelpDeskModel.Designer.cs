@@ -1,4 +1,4 @@
-﻿// La generación de código T4 está habilitada para el modelo 'C:\Users\pc1\Source\Repos\Ev2-web-forms\ev2 web forms\HelpDeskModel.edmx'. 
+﻿// La generación de código T4 está habilitada para el modelo 'C:\Users\pc1\source\repos\Ev2-web-forms\ev2 web forms\HelpDeskModel.edmx'. 
 // Para habilitar la generación de código heredada, cambie el valor de la propiedad del diseñador 'Estrategia de generación de código'
 // por 'ObjectContext heredado'. Esta propiedad está disponible en la ventana Propiedades cuando se abre
 // el modelo en el diseñador.
