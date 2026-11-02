@@ -105,6 +105,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Administrador\ConsultasLINQ.aspx" />
     <Content Include="Administrador\PanelAdministrador.aspx" />
     <Content Include="Cliente\InicioCliente.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
@@ -189,6 +190,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administrador\ConsultasLINQ.aspx.cs">
+      <DependentUpon>ConsultasLINQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\ConsultasLINQ.aspx.designer.cs">
+      <DependentUpon>ConsultasLINQ.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Administrador\PanelAdministrador.aspx.cs">
       <DependentUpon>PanelAdministrador.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

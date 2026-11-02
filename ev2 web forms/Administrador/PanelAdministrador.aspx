@@ -24,6 +24,33 @@
 
         <hr />
 
+        <!-- ACCESO A CONSULTAS LINQ -->
+        <h4>Herramientas de administración</h4>
+
+        <div class="card mb-4">
+            <div class="card-body">
+
+                <h5 class="card-title">
+                    Consultas LINQ
+                </h5>
+
+                <p class="card-text">
+                    Accede al módulo de consultas para analizar
+                    los tickets registrados mediante LINQ y
+                    Entity Framework.
+                </p>
+
+                <a href="ConsultasLINQ.aspx"
+                   class="btn btn-info">
+                    Acceder a Consultas LINQ
+                </a>
+
+            </div>
+        </div>
+
+        <hr />
+
+        <!-- ESTADO DE CONEXIÓN -->
         <h4>Estado de la conexión a la base de datos</h4>
 
         <asp:Label
@@ -34,6 +61,7 @@
 
         <br />
 
+        <!-- LISTADO DE TICKETS -->
         <h4>Tickets registrados</h4>
 
         <div class="table-responsive">
@@ -90,6 +118,7 @@
 
         <br />
 
+        <!-- CERRAR SESIÓN -->
         <asp:Button
             ID="btnCerrar"
             runat="server"
