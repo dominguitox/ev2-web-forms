@@ -107,6 +107,9 @@
   <ItemGroup>
     <Content Include="Administrador\ConsultasLINQ.aspx" />
     <Content Include="Administrador\PanelAdministrador.aspx" />
+    <Content Include="base de datos.txt" />
+    <Content Include="bin\ev2 web forms.dll" />
+    <Content Include="bin\ev2 web forms.pdb" />
     <Content Include="Cliente\InicioCliente.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -155,6 +158,8 @@
     <Content Include="HelpDeskModel.edmx.diagram">
       <DependentUpon>HelpDeskModel.edmx</DependentUpon>
     </Content>
+    <Content Include="5. ABpro Estudiante %2815%29.docx" />
+    <Content Include="obj\Release\ev2 web forms.csproj.AssemblyReference.cache" />
     <None Include="Scripts\jquery-3.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.1.js" />
     <Content Include="Scripts\jquery-3.7.1.min.js" />
@@ -237,6 +242,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>HelpDeskModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
     <Compile Include="Prioridades.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>

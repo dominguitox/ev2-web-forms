@@ -18,18 +18,24 @@ namespace ev2_web_forms
             else
             {
                 btnCerrar.Visible = true;
-                if (Session["Rol"].ToString() == "Cliente")
+                if (Session["Rol"].ToString() == "Usuario")
                 {
                     linklogin.InnerText = "Panel Cliente";
-                    linklogin.HRef = "/Cliente/InicioCliente";
+                    linklogin.HRef = ResolveUrl("~/Cliente/InicioCliente.aspx");
                 }
 
                 if (Session["Rol"].ToString() == "Administrador")
                 {
                     linklogin.InnerText = "Panel Administrador";
-                    linklogin.HRef = "/Administrador/PanelAdministrador";
+                    linklogin.HRef = ResolveUrl("~/Administrador/PanelAdministrador.aspx");
 
 
+                }
+
+                if (Session["Rol"].ToString() == "Tecnico")
+                {
+                    linklogin.InnerText = "Panel Técnico";
+                    linklogin.HRef = ResolveUrl("~/Tecnico/PanelTecnico.aspx");
                 }
             }
 
@@ -39,7 +45,8 @@ namespace ev2_web_forms
         {
             Session.Abandon();
             Session.Clear();
-            Response.Redirect("../Login.aspx");
+            Response.Redirect(ResolveUrl("~/Login.aspx"), false);
+            Context.ApplicationInstance.CompleteRequest();
         }
     }
 }

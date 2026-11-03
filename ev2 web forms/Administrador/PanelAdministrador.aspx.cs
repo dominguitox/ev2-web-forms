@@ -11,7 +11,8 @@ namespace ev2_web_forms.Administrador
             // Comprobar que el usuario tenga una sesion
             // y que su rol sea Administrador.
             if (Session["Rol"] == null ||
-                Session["Rol"].ToString() != "Administrador")
+                Session["Rol"].ToString() != "Administrador" ||
+                Session["IdUsuario"] == null)
             {
                 Response.Redirect("../Login.aspx");
                 return;
